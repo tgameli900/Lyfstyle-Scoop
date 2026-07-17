@@ -1,0 +1,13 @@
+# requirements.txt
+# Dependencies for Daily Entertainment AI Agent
+
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+feedparser>=6.0.10
+python-dotenv>=1.0.0
+pytz>=2024.1
+
+# LLM Providers (Install exact client you use, or all three for flexibility)
+openai>=1.40.0
+anthropic>=0.30.0
+google-generativeai>=0.7.2
